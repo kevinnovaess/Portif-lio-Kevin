@@ -2,40 +2,373 @@
 <html lang="pt-BR">
 
 <head>
+    <meta charset="UTF-8">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Meu Perfil</title>
+    <meta name="description"
+        content="Portfólio de Kevin Novaes de Azevedo - Desenvolvedor Full-Stack">
 
-<link rel="stylesheet" href="style.css">
+    <title>Kevin Novaes | Desenvolvedor Full-Stack</title>
 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="card">
+    <!-- MENU -->
 
-<img src="images/perfil.jpg" alt="Foto de Kevin">
+    <header>
+
+        <nav class="navbar">
+
+            <h2 class="logo">Kevin<span>.</span></h2>
+
+            <ul class="menu">
+
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#habilidades">Habilidades</a>
+                </li>
+
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
 
 
-<h1 id="nome">Kevin Novaes de Azevedo</h1>
+    <!-- INÍCIO -->
 
-<h2 id="cargo">Desenvolvedor Full-Stack</h2>
+    <main>
 
-<p>📍 São Paulo - Brasil</p>
+        <section id="inicio" class="hero">
 
-<p id="estudos">
- Desenvolvendo meu primeiro portifólio 
-</p>
 
-<button id="botao" onclick="mostrarMensagem()">
-    Ver Portfólio
-</button>
+    <div class="hero-text">
+
+        <p class="hello">
+            Olá, eu sou o Kevin 👋
+        </p>
+
+        <h1>
+            Kevin Novaes de Azevedo
+        </h1>
+
+        <h2>
+            Estudante de ADS |
+            <span>Desenvolvedor Full-Stack em formação</span>
+        </h2>
+
+        <p class="description">
+            Transformando ideias em soluções através da tecnologia,
+            programação e desenvolvimento de software.
+        </p>
+
+        <div class="hero-info">
+
+            <span>📍 São Paulo - SP</span>
+
+            <span>💻 Em constante evolução</span>
+
+        </div>
+
+        <div class="buttons">
+
+            <a href="#projetos" class="btn-primary">
+                🚀 Ver meus projetos
+            </a>
+
+            
+                📩 Entre em contato
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-image">
+
+        <div class="image-glow">
+
+            <img
+                src="images/perfil.jpg"
+                alt="Foto de Kevin Novaes"
+            >
+
+        </div>
+
+
+    </div>
+
+</section>
+
+        <!-- SOBRE -->
+
+        <section id="sobre" class="section">
+
+            <h2 class="section-title">
+                Sobre mim
+            </h2>
+
+            <div class="about">
+
+                <p>
+                    Sou Kevin Novaes de Azevedo, estudante de
+                    Análise e Desenvolvimento de Sistemas.
+                    
+                </p>
+
+                <p>
+                    Atualmente estou desenvolvendo minhas habilidades
+                    em desenvolvimento web, programação, banco de dados
+                    e engenharia de software.
+                </p>
+
+                <p>
+                    Meu objetivo é atuar profissionalmente como
+                    Desenvolvedor Full-Stack, criando aplicações
+                    modernas, eficientes e bem estruturadas.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+
+        <section id="habilidades" class="section">
+
+            <h2 class="section-title">
+                Minhas habilidades
+            </h2>
+
+    <div class="skills">
+
+        <div class="skill">
+            <h3>HTML</h3>
+            <p>Estruturação e organização de páginas web.</p>
+        </div>
+
+        <div class="skill">
+            <h3>CSS</h3>
+            <p>Estilização, layouts e interfaces responsivas.</p>
+        </div>
+
+        <div class="skill">
+            <h3>JavaScript</h3>
+            <p>Interatividade, eventos e lógica para aplicações web.</p>
+        </div>
+
+        <div class="skill">
+            <h3>C#</h3>
+            <p>Programação e desenvolvimento de aplicações.</p>
+        </div>
+
+        <div class="skill">
+            <h3>SQL</h3>
+            <p>Consultas, manipulação e organização de dados.</p>
+        </div>
+
+        <div class="skill">
+            <h3>Git & GitHub</h3>
+            <p>Controle de versão e gerenciamento de projetos.</p>
+        </div>
+
+    </div>
+        <!-- PROJETOS -->
+
+    <section id="projetos" class="section">
+
+    <h2 class="section-title">
+        Meus projetos
+    </h2>
+
+    <div class="projects">
+
+        <!-- Projeto 1 -->
+        <article class="project">
+
+            <h3>Portfólio Pessoal</h3>
+
+            <p>
+                Meu primeiro portfólio desenvolvido para apresentar
+                minhas habilidades, estudos e evolução na área de tecnologia.
+            </p>
+
+            <div class="technologies">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a
+                href="https://github.com/kevinnovaess/Portif-lio-Kevin"
+                target="_blank"
+                class="project-button"
+            >
+                Ver projeto
+            </a>
+
+        </article>
+
+
+        <!-- Projeto 2 -->
+        <article class="project">
+
+            <h3>Sistema de Cadastro de Clientes</h3>
+
+            <p>
+                API REST desenvolvida em C# e .NET para cadastro e gerenciamento
+                de clientes, utilizando operações CRUD e banco de dados SQLite.
+            </p>
+
+            <div class="technologies">
+                <span>C#</span>
+                <span>.NET</span>
+                <span>ASP.NET Core</span>
+                <span>SQLite</span>
+            </div>
+
+            <a
+                href="https://github.com/kevinnovaess/Sistema-Cadastro-Clientes"
+                target="_blank"
+                class="project-button"
+            >
+                Ver projeto
+            </a>
+
+        </article>
+
+
+        <!-- Projeto 3 -->
+        <article class="project">
+
+            <h3>Próximo Projeto</h3>
+
+            <p>
+                Este espaço será utilizado para apresentar
+                um dos meus próximos projetos.
+            </p>
+
+            <div class="technologies">
+                <span>Em breve</span>
+            </div>
+
+            <span class="project-button disabled">
+                Em breve
+            </span>
+
+        </article>
+
+    </div>
+
+</section>
+        <!-- FORMAÇÃO -->
+
+        <section class="section">
+
+            <h2 class="section-title">
+                Formação
+            </h2>
+
+            <div class="education">
+
+                <h3>
+                    Análise e Desenvolvimento de Sistemas
+                </h3>
+
+                <p>
+                    Universidade Nove de Julho — UNINOVE
+                </p>
+
+                <p>
+                    Em andamento
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTATO -->
+
+        <section id="contato" class="section contact">
+
+            <h2 class="section-title">
+                Vamos conversar?
+            </h2>
+
+            <p>
+                Estou aberto a oportunidades profissionais,
+                projetos e conexões na área de tecnologia.
+            </p>
+
+            <a
+                href="mailto: kevinnovaes170@gmail.com"
+                class="btn-primary"
+            >
+                Entrar em contato
+            </a>
+
+            <div class="social-links">
+
+    <a
+        href="https://github.com/kevinnovaess/Portif-lio-Kevin"
+        target="_blank"
+        class="social-button"
+    >
+        GitHub
+    </a>
+
+    <a
+        href="https://www.linkedin.com/in/kevin-novaes-14b7713a5/"
+        target="_blank"
+        class="social-button"
+    >
+        LinkedIn
+    </a>
 
 </div>
 
-<script src="script.js"></script>
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            © 2026 Kevin Novaes de Azevedo
+        </p>
+
+        <p>
+            Desenvolvedor Full-Stack
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 
